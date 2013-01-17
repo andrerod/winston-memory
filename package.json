@@ -6,6 +6,7 @@
   "contributors": [
     { "name": "Andre Rodrigues", "email": "andrerod@microsoft.com" }
   ],
+  "licenses": [ { "type": "Apache", "url": "http://www.apache.org/licenses/LICENSE-2.0" } ],
   "repository": {
     "type": "git",
     "url": "http://github.com/andrerod/winston-memory.git"
