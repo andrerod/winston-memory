@@ -1,0 +1,99 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish', '.' ]
+2 info using npm@1.1.69
+3 info using node@v0.8.16
+4 verbose publish [ '.' ]
+5 verbose read json /Users/andrerod/workspace/winston-memory/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/andrerod/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/tmp.tgz
+14 verbose folder .
+15 info prepublish winston-memory@0.1.0
+16 silly lockFile 59ddad5d-10165-0-2636240746360272-tmp-tgz /var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/tmp.tgz
+17 verbose lock /var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/tmp.tgz /Users/andrerod/.npm/59ddad5d-10165-0-2636240746360272-tmp-tgz.lock
+18 silly lockFile 59ddad5d-10165-0-2636240746360272-tmp-tgz /var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/tmp.tgz
+19 verbose tar unpack /var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/tmp.tgz
+20 silly lockFile f1f10c7a-10165-0-2636240746360272-package /var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/package
+21 verbose lock /var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/package /Users/andrerod/.npm/f1f10c7a-10165-0-2636240746360272-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry README.md
+25 silly gunzTarPerm extractEntry lib/winston-memory.js
+26 silly gunzTarPerm extractEntry LICENSE.txt
+27 verbose read json /var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/package/package.json
+28 silly lockFile f1f10c7a-10165-0-2636240746360272-package /var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/package
+29 verbose from cache /var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/package/package.json
+30 verbose tar pack [ '/Users/andrerod/.npm/winston-memory/0.1.0/package.tgz',
+30 verbose tar pack   '/var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/package' ]
+31 verbose tarball /Users/andrerod/.npm/winston-memory/0.1.0/package.tgz
+32 verbose folder /var/folders/ps/9_d0jydn69v5d93hm0psqtdhv559m2/T/npm-6563/1358383710165-0.2636240746360272/package
+33 silly lockFile 2b9e9e21-winston-memory-0-1-0-package-tgz /Users/andrerod/.npm/winston-memory/0.1.0/package.tgz
+34 verbose lock /Users/andrerod/.npm/winston-memory/0.1.0/package.tgz /Users/andrerod/.npm/2b9e9e21-winston-memory-0-1-0-package-tgz.lock
+35 silly lockFile 2b9e9e21-winston-memory-0-1-0-package-tgz /Users/andrerod/.npm/winston-memory/0.1.0/package.tgz
+36 silly lockFile 107509af-npm-winston-memory-0-1-0-package /Users/andrerod/.npm/winston-memory/0.1.0/package
+37 verbose lock /Users/andrerod/.npm/winston-memory/0.1.0/package /Users/andrerod/.npm/107509af-npm-winston-memory-0-1-0-package.lock
+38 silly lockFile 107509af-npm-winston-memory-0-1-0-package /Users/andrerod/.npm/winston-memory/0.1.0/package
+39 verbose tar unpack /Users/andrerod/.npm/winston-memory/0.1.0/package.tgz
+40 silly lockFile 107509af-npm-winston-memory-0-1-0-package /Users/andrerod/.npm/winston-memory/0.1.0/package
+41 verbose lock /Users/andrerod/.npm/winston-memory/0.1.0/package /Users/andrerod/.npm/107509af-npm-winston-memory-0-1-0-package.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry lib/winston-memory.js
+46 silly gunzTarPerm extractEntry LICENSE.txt
+47 verbose read json /Users/andrerod/.npm/winston-memory/0.1.0/package/package.json
+48 silly lockFile 107509af-npm-winston-memory-0-1-0-package /Users/andrerod/.npm/winston-memory/0.1.0/package
+49 silly shasum updated bytes 5857
+50 info shasum 99bfa6cb0bb84d94581fe4cf3bd014942f26cd94
+50 info shasum /Users/andrerod/.npm/winston-memory/0.1.0/package.tgz
+51 verbose from cache /Users/andrerod/.npm/winston-memory/0.1.0/package/package.json
+52 verbose chmod /Users/andrerod/.npm/winston-memory/0.1.0/package.tgz 644
+53 verbose chown /Users/andrerod/.npm/winston-memory/0.1.0/package.tgz [ 911386242, 147439545 ]
+54 silly lockFile 3a52ce78- .
+55 silly publish { name: 'winston-memory',
+55 silly publish   version: '0.1.0',
+55 silly publish   description: 'A Memory transport for winston',
+55 silly publish   author: { name: 'Andre Rodrigues', email: 'andrerod@microsoft.com' },
+55 silly publish   contributors: [ { name: 'Andre Rodrigues', email: 'andrerod@microsoft.com' } ],
+55 silly publish   licenses:
+55 silly publish    [ { type: 'Apache',
+55 silly publish        url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+55 silly publish   repository:
+55 silly publish    { type: 'git',
+55 silly publish      url: 'http://github.com/andrerod/winston-memory.git' },
+55 silly publish   keywords: [ 'logging', 'sysadmin', 'tools', 'winston' ],
+55 silly publish   main: './lib/winston-memory',
+55 silly publish   engines: { node: '>= 0.4.0' },
+55 silly publish   readme: 'winston-memory\n==============\n\nMemory logger for winston',
+55 silly publish   readmeFilename: 'README.md',
+55 silly publish   _id: 'winston-memory@0.1.0',
+55 silly publish   dist: { shasum: '99bfa6cb0bb84d94581fe4cf3bd014942f26cd94' } }
+56 verbose url raw winston-memory
+57 verbose url resolving [ 'https://registry.npmjs.org/', './winston-memory' ]
+58 verbose url resolved https://registry.npmjs.org/winston-memory
+59 info trying registry request attempt 1 at 16:48:30
+60 http PUT https://registry.npmjs.org/winston-memory
+61 http 409 https://registry.npmjs.org/winston-memory
+62 verbose url raw winston-memory
+63 verbose url resolving [ 'https://registry.npmjs.org/', './winston-memory' ]
+64 verbose url resolved https://registry.npmjs.org/winston-memory
+65 info trying registry request attempt 1 at 16:48:30
+66 http GET https://registry.npmjs.org/winston-memory
+67 http 200 https://registry.npmjs.org/winston-memory
+68 error publish fail Cannot publish over existing version.
+68 error publish fail Bump the 'version' field, set the --force flag, or
+68 error publish fail     npm unpublish 'winston-memory@0.1.0'
+68 error publish fail and try again
+69 error System Darwin 11.4.2
+70 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "."
+71 error cwd /Users/andrerod/workspace/winston-memory
+72 error node -v v0.8.16
+73 error npm -v 1.1.69
+74 error code EPUBLISHCONFLICT
+75 verbose exit [ 1, true ]
