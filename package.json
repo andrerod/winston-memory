@@ -1,0 +1,16 @@
+{
+  "name": "winston-memory",
+  "version": "0.1.0",
+  "description": "A Memory transport for winston",
+  "author": "Andre Rodrigues <andrerod@microsoft.com>",
+  "contributors": [
+    { "name": "Andre Rodrigues", "email": "andrerod@microsoft.com" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/andrerod/winston-memory.git"
+  },
+  "keywords": ["logging", "sysadmin", "tools", "winston" ],
+  "main": "./lib/winston-memory",
+  "engines": { "node": ">= 0.4.0" }
+}
