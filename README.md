@@ -27,7 +27,7 @@ winston.remove(cli.output.transports.Console);
 And you're ready to go. When you need to access your logged info, just access:
 
 ```js
-var transport = cli.output['default'].transports['memory'];
+var transport = winston['default'].transports['memory'];
 
 // Arrays with output and error lines
 var outputs = transport.writeOutput;
