@@ -20,8 +20,8 @@ Hook it up to winston like this:
 var winston = require('winston');
 require('winston-memory').Memory;
 
-winston.add(cli.output.transports.Memory);
-winston.remove(cli.output.transports.Console);
+winston.add(winston.transports.Memory);
+winston.remove(winston.transports.Console);
 ```
 
 And you're ready to go. When you need to access your logged info, just access:
