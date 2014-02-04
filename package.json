@@ -13,5 +13,8 @@
   },
   "keywords": ["logging", "sysadmin", "tools", "winston" ],
   "main": "./lib/winston-memory",
-  "engines": { "node": ">= 0.4.0" }
+  "engines": { "node": ">= 0.4.0" },
+  "dependencies": {
+    "colors": "~0.6.0-1"
+  }
 }
